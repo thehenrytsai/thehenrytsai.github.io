@@ -1,0 +1,27 @@
+{
+  "@context": "https://identity.foundation/.well-known/contexts/did-configuration-v0.0.jsonld",
+  "entries": [
+    "eyJraWQiOiJkaWQ6aW9uOkVpQzNtVEhBSl9PTms1b0pSYVpKak1BYVM3c18xbWpDdXByalJkcTZNSUU0dmcjZ2VuZXJhbC1zaWduaW5nIiwiYWxnIjoiRVMyNTZLIn0.eyJzdWIiOiJkaWQ6d2ViOmlkZW50aXR5LmZvdW5kYXRpb24iLCJpc3MiOiJkaWQ6d2ViOmlkZW50aXR5LmZvdW5kYXRpb24iLCJuYmYiOjE1OTUxOTUwOTIsImV4cCI6MTYyNjczMTA5MiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL2lkZW50aXR5LmZvdW5kYXRpb24vLndlbGwta25vd24vY29udGV4dHMvZGlkLWNvbmZpZ3VyYXRpb24tdjAuMC5qc29ubGQiXSwiaXNzdWVyIjoiZGlkOmlvbjpFaUMzbVRIQUpfT05rNW9KUmFaSmpNQWFTN3NfMW1qQ3VwcmpSZHE2TUlFNHZnIiwiaXNzdWFuY2VEYXRlIjoiMjAyMC0wNy0xOVQxNjo0NDo1Mi0wNTowMCIsImV4cGlyYXRpb25EYXRlIjoiMjAyMS0wNy0xOVQxNjo0NDo1Mi0wNTowMCIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJEb21haW5MaW5rYWdlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDppb246RWlDM21USEFKX09OazVvSlJhWkpqTUFhUzdzXzFtakN1cHJqUmRxNk1JRTR2ZyIsImRvbWFpbiI6InRoZWhlbnJ5dHNhaS5naXRodWIuaW8ifX19.1Kd-RfFtAsQPniVQYfFjLnSG3ZuYtMiiL-bX8GhWA8y0yqQ9kt9pkf92C6fzdycRwIg1Xxqf20So2Mds-X6bfA",
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://identity.foundation/.well-known/contexts/did-configuration-v0.0.jsonld"
+      ],
+      "issuer": "did:ion:EiC3mTHAJ_ONk5oJRaZJjMAaS7s_1mjCuprjRdq6MIE4vg",
+      "issuanceDate": "2020-07-19T16:44:52-05:00",
+      "expirationDate": "2021-07-19T16:44:52-05:00",
+      "type": ["VerifiableCredential", "DomainLinkageCredential"],
+      "credentialSubject": {
+        "id": "did:ion:EiC3mTHAJ_ONk5oJRaZJjMAaS7s_1mjCuprjRdq6MIE4vg",
+        "domain": "thehenrytsai.github.io"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2020-07-20T17:12:19Z",
+        "verificationMethod": "did:ion:EiC3mTHAJ_ONk5oJRaZJjMAaS7s_1mjCuprjRdq6MIE4vg#signingKey",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..2R6LvggLV9dVmjqxMb0cURGg1VfyLaMKlDvMCcfUcjklFtD67LImMc8Njq6d-uGRlD9-0idZbn1oRWTxcUprZA"
+      }
+    }
+  ]
+}
